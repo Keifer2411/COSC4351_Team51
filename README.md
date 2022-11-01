@@ -31,6 +31,13 @@ use railway to host database
 
 use vercel to deploy
 
+FOLDERS
+
+components - react components
+pages - navigatable pages on website
+lib - backend stuff (buisiness layer, services, data-access)
+
+
 
 REFERENCES
 
