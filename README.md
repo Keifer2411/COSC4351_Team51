@@ -4,10 +4,13 @@ Restaurant Reservation System
 RUN
 
 npm install --global yarn
+//installs yarn globally
 
 cd restaurant-reservation
+//change directory into restaurant-reservation directory
 
 yarn dev
+//starts development server, will provide a link to localhost:3000 whee you can see the website
 
 
 NOTES
@@ -20,7 +23,7 @@ Prefix unused variables with _ otherwise cannot commit/push
 VS code extentions to install:
     - Prettier
 
-On windows if debug gives error: vscode listen eacces: permission denied run:
+On windows if debug gives error: vscode listen eacces: permission denied run (in command prompt):
 	net stop winnat
 	net start winnat
 
