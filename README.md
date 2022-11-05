@@ -14,7 +14,7 @@ cd restaurant-reservation
 yarn install
 //installs all needed dependencies
 
-yarn dev
+yarn run dev
 //starts development server, will provide a link to localhost:3000 whee you can see the website
 
 
