@@ -3,11 +3,16 @@ Restaurant Reservation System
 
 RUN
 
+install nodJS from https://nodejs.org/en/download/ if you don't have it
+
 npm install --global yarn
 //installs yarn globally
 
 cd restaurant-reservation
 //change directory into restaurant-reservation directory
+
+yarn install
+//installs all needed dependencies
 
 yarn dev
 //starts development server, will provide a link to localhost:3000 whee you can see the website
@@ -16,9 +21,9 @@ yarn dev
 NOTES
 
 Use yarn only, not npm
-    - use word yarn before script name (script names are in package.json)
+    - to run a script use word yarn before script name (script names are in package.json)
 
-Prefix unused variables with _ otherwise cannot commit/push
+Unused variables must be prefixed with _ (eg. _unusedvar) otherwise cannot commit/push
 
 VS code extentions to install:
     - Prettier
@@ -39,7 +44,6 @@ FOLDERS
 components - react components
 pages - navigatable pages on website
 lib - backend stuff (buisiness layer, services, data-access)
-
 
 
 REFERENCES
