@@ -1,0 +1,9 @@
+.container {
+    background: rgba(0, 0, 0, .7) url('/img/Republique.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-blend-mode: darken;
+    position: fixed;
+    z-index: -1;
+}
