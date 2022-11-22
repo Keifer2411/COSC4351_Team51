@@ -26,15 +26,15 @@ export const ReservationForm = () => {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <input type='text' placeholder='First Name' {...register('firstName')} />
-      {<p>{errors.firstName?.message}</p>}
+      <p>{errors.firstName?.message as unknown as string}</p>
       <input type='text' placeholder='Last Name' {...register('lastName')} />
-      <p>{errors.lastName?.message}</p>
+      <p>{errors.lastName?.message as unknown as string}</p>
       <input type='text' placeholder='Enter an email address' {...register('email')} />
-      <p>{errors.email?.message}</p>
+      <p>{errors.email?.message as unknown as string}</p>
       <input type='text' placeholder='Enter a phone number' {...register('phoneNumber')} />
-      <p>{errors.phoneNumber?.message}</p>
+      <p>{errors.phoneNumber?.message as unknown as string}</p>
       <input type='text' placeholder='Number of guests' {...register('numberOfGuests')} />
-      <p>{errors.numberOfGuests?.message}</p>
+      <p>{errors.numberOfGuests?.message as unknown as string}</p>
       <input type='submit'/>
     </form>
   )
