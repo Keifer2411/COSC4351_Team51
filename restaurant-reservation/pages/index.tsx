@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" content="restaurant description" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Homepage/>
+      <Homepage />
     </div>
   );
 }
