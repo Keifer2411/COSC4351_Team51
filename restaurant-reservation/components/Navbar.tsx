@@ -1,4 +1,5 @@
-import styles from "../styles/Navbar.module.css"
+import Link from 'next/link';
+import styles from '../styles/Navbar.module.css';
 
 export const Navbar = () => {
   return (
@@ -7,9 +8,11 @@ export const Navbar = () => {
         <li className={styles.listItem}>Hours & Locations</li>
         <li className={styles.listItem}>About</li>
         <li className={styles.listItem}>Menu</li>
-        <li className={styles.listItem}>Reservations</li>
+        <li className={styles.listItem}>
+          <Link href="/reservations">Reservations</Link>
+        </li>
       </ul>
       <div className={styles.loginItem}>Login</div>
     </div>
-  )
+  );
 };

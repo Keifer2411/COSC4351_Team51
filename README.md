@@ -17,6 +17,9 @@ yarn install
 yarn run dev
 //starts development server, will provide a link to localhost:3000 whee you can see the website
 
+npx prisma studio
+//shows database in GUI
+
 
 NOTES
 
@@ -35,7 +38,7 @@ On windows if debug gives error: vscode listen eacces: permission denied run (in
 
 FOR THE FUTURE
 
-use railway to host database
+for now using prisma and local sqlite database.db file for database
 
 use vercel to deploy
 
@@ -44,6 +47,7 @@ FOLDERS
 components - react components
 pages - navigatable pages on website
 lib - backend stuff (buisiness layer, services, data-access)
+prisma - database ORM
 
 
 REFERENCES
